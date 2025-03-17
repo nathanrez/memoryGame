@@ -1,0 +1,61 @@
+.login-form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    background-color: #7D7463 /* Fundo verde militar */
+}
+
+.login-header {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.login-header img {
+    width: 300px;
+}
+
+.login-header p {
+    color: #f5ecda; /* Cor clara para o título */
+    font-size: 30px;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.login-input {
+    border: 2px solid #333333; /* Borda em cinza escuro */
+    border-radius: 15px;
+    color: #1A1A1A; /* Texto preto */
+    font-size: 1em;
+    margin-bottom: 20px;
+    max-width: 300px;
+    outline: none;
+    padding: 15px;
+    width: 100%;
+    background-color: #f5ecda; /* Fundo branco claro para o input */
+}
+
+.login-button {
+    background-color: #be2e2e; /* Botão amarelo neon */
+    border-radius: 15px; /* Mesmo arredondamento que o input */
+    color: #ccc; /* Texto preto no botão */
+    cursor: pointer;
+    font-size: 1em;
+    max-width: 300px;
+    padding: 15px;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+    background-color: #8d0000; /* Efeito de hover para o botão */
+}
+
+.login-button:disabled {
+    background-color: #F4E0B9;; /* Cor de fundo do botão desabilitado */
+    color: #968f81; /* Texto mais claro */
+    cursor: not-allowed; /* Cursor indicando que está desabilitado */
+}
